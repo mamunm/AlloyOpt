@@ -17,7 +17,7 @@
         false
     ],
     "seed_points": 20,
-    "cwd": "/home/osman/Osman_Victus_HP/MOBO/AlloyOpt/example_script",
+    "cwd": "/home/osman/Osman_Victus_HP/MOBO/MOBO_Paper_Experiments/AlloyOpt/example_script",
     "cur_iter": 5,
     "n_iterations": 5,
     "n_candidates": 1,

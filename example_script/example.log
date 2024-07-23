@@ -1,9 +1,8 @@
-2024-07-19 11:33:32.912 | INFO     | alloy_opt.optimization:run_optimization:207 - Starting Bayesian Optimization:
+2024-07-23 10:39:08.707 | INFO     | alloy_opt.optimization:run_optimization:207 - Starting Bayesian Optimization:
 
-2024-07-19 11:33:32.912 | INFO     | alloy_opt.optimization:run_optimization:210 - Running iteration 1 of 5.
-2024-07-19 11:33:33.272 | INFO     | alloy_opt.optimization:run_optimization:210 - Running iteration 2 of 5.
-2024-07-19 11:33:33.602 | INFO     | alloy_opt.optimization:run_optimization:210 - Running iteration 3 of 5.
-2024-07-19 11:33:33.926 | INFO     | alloy_opt.optimization:run_optimization:210 - Running iteration 4 of 5.
-2024-07-19 11:33:34.256 | INFO     | alloy_opt.optimization:run_optimization:210 - Running iteration 5 of 5.
-2024-07-19 11:33:34.563 | INFO     | alloy_opt.optimization:run_optimization:220 - Optimization completed!
-
+2024-07-23 10:39:08.707 | INFO     | alloy_opt.optimization:run_optimization:210 - Running iteration 1 of 5.
+2024-07-23 10:39:09.111 | INFO     | alloy_opt.optimization:run_optimization:210 - Running iteration 2 of 5.
+2024-07-23 10:39:09.422 | INFO     | alloy_opt.optimization:run_optimization:210 - Running iteration 3 of 5.
+2024-07-23 10:39:09.749 | INFO     | alloy_opt.optimization:run_optimization:210 - Running iteration 4 of 5.
+2024-07-23 10:39:10.090 | INFO     | alloy_opt.optimization:run_optimization:210 - Running iteration 5 of 5.
+2024-07-23 10:39:10.447 | INFO     | alloy_opt.optimization:run_optimization:220 - Optimization completed!

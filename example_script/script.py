@@ -1,16 +1,15 @@
 # An example script to run the alloy_opt
 
-from pathlib import Path
-import sys
+# import sys
 import warnings
+from pathlib import Path
+
 from loguru import logger
 
 warnings.filterwarnings("ignore")
 
-sys.path.append(str(Path(__file__).parents[1]))
-from alloy_opt.input_parameters import (  # noqa: E402
-    BayesianOptimizationParameters,
-)
+# sys.path.append(str(Path(__file__).parents[1]))
+from alloy_opt.input_parameters import BayesianOptimizationParameters  # noqa: E402
 from alloy_opt.optimization import BayesianOptimization  # noqa: E402
 
 if Path("example.log").exists():
@@ -28,7 +27,7 @@ param = BayesianOptimizationParameters(
     n_iterations=5,
     device="cpu",
     n_candidates=1,
-    experiment_name="example_run"
+    experiment_name="example_run",
 )
 
 bo = BayesianOptimization(param)

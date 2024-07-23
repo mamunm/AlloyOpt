@@ -10,11 +10,17 @@ To create a virtual environment with AlloyOpt using conda or mamba, run the foll
 mamba env create -n alloy_opt -f environment.yml
 ```
 
-Then you need to add the following to your run script:
+If one wants to run the code without installing it, you need to add the following to your run script:
 
 ```python
 import sys
 sys.path.append("/path/to/alloy_opt")
+```
+
+Additionally, one can install the package in the current environment with the following command:
+
+```bash
+pip install -e .
 ```
 
 ## Author
